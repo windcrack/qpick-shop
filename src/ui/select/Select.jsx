@@ -3,7 +3,7 @@ import React from 'react';
 function Select(){
     return(
         <select>
-            <option value=""></option>
+            <option value="">Выбрать модель телефона</option>
         </select>
     )
 }

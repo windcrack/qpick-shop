@@ -1,4 +1,5 @@
 import React from 'react';
+import Select from '../../ui/select/Select';
 
 function Header(){
     return(
@@ -8,7 +9,7 @@ function Header(){
                     QPICK
                 </a>
             </div>
-            
+            <Select />
         </nav>
     )
 }
