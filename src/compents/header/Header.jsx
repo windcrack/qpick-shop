@@ -1,5 +1,6 @@
 import React from 'react';
 import Select from '../../ui/select/Select';
+import Contorls from '../contorls/Contorls';
 
 function Header(){
     return(
@@ -10,6 +11,7 @@ function Header(){
                 </a>
             </div>
             <Select />
+            <Contorls />
         </nav>
     )
 }
