@@ -1,10 +1,18 @@
 import React from 'react';
+import Baner from '../components/baner/Baner';
+import Cases from '../components/cases/Cases';
+import Headphones from '../components/headphones/Headphones';
+import Container from '../components/layout/Container';
+import Wireless from '../components/wireless/Wireless';
 
 function Home(){
     return(
-        <main className='container'>
-            <h1>Home</h1>
-        </main>
+        <Container>
+            <Baner />
+            <Cases />
+            <Headphones />
+            <Wireless />
+        </Container>
     )
 }
 
