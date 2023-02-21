@@ -1,0 +1,45 @@
+.card-more
+    display: grid
+    padding: 15px 21px 33px 22px
+    position: relative
+    background: var(--color-white)
+    box-shadow: var(--shadow-black)
+    border-radius: 30px
+    align-items: last baseline
+
+    &__favorite
+        position: absolute
+        left: 22px
+        top: 16px
+
+    &__apple
+        position: absolute
+        right: 21px
+        top: 23px
+
+    &__pick
+        justify-self: center
+        margin: 0px 0px 54px
+
+    &__text
+        display: grid
+        grid-template-columns: repeat(2, max-content)
+        justify-content: space-between
+        margin: 0px 0px 9px
+        gap: 25px
+        font-weight: 600
+        font-size: 17px
+        line-height: 21px
+
+    &__price
+        color: var(--color-yellow)
+        justify-self: end
+
+    &__rating
+        display: flex
+        align-items: center
+        font-weight: 600
+        font-size: 17px
+        line-height: 21px
+        color: var(--color-gray-large)
+        gap: 10px

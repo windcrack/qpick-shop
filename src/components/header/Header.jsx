@@ -1,18 +1,18 @@
-import React from 'react';
-import Select from '../../ui/select/Select';
-import Contorls from '../contorls/Contorls';
-import Logo from '../logo/Logo';
+import React from "react";
+import Select from "../select/Select";
+import Contorls from "../contorls/Contorls";
+import Logo from "../logo/Logo";
 
-import './style.sass';
+import "./style.sass";
 
-function Header(){
-    return(
-        <nav className='container header-nav'>
-            <Logo />
-            <Select />
-            <Contorls />
-        </nav>
-    )
+function Header() {
+  return (
+    <header className="container header-nav">
+      <Logo />
+      <Select />
+      <Contorls />
+    </header>
+  );
 }
 
 export default Header;
